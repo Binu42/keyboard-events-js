@@ -1,0 +1,52 @@
+body {
+  background-color: #f1f1f1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  justify-items: center;
+  align-items: center;
+}
+
+.card {
+  width: 1000px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: -1px 3px 20px 0 rgba(0, 0, 0, 0.06);
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.grid {
+  padding: 10px;
+  display: grid;
+  grid-template-areas: 'input json';
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+input {
+  height: 50px;
+  width: 400px;
+  outline: none;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 40px;
+  box-shadow: -1px 3px 20px 0 rgba(0, 0, 0, 0.06);
+}
+
+#event-val {
+  font-size: 1.2rem;
+  padding: 50px;
+  color: #ea2c62;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
